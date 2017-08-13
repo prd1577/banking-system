@@ -1,0 +1,10 @@
+com\cognitivescale\bank\repo\mongo\config\MongoConfig.class
+com\cognitivescale\bank\repo\mongo\bean\SessionDetails.class
+com\cognitivescale\bank\repo\mongo\repository\AccountDetailsRepositoryImpl.class
+com\cognitivescale\bank\repo\mongo\bean\AccountDetails.class
+com\cognitivescale\bank\repo\mongo\bean\Benificiary.class
+com\cognitivescale\bank\repo\mongo\repository\IAccountDetailsRepository.class
+com\cognitivescale\bank\repo\mongo\repository\SessionDetailsRepositoryImpl.class
+com\cognitivescale\bank\repo\mongo\repository\SessionDetailsRepository.class
+com\cognitivescale\bank\repo\mongo\repository\ISessionDetailsRepository.class
+com\cognitivescale\bank\repo\mongo\repository\AccountDetailsRepository.class

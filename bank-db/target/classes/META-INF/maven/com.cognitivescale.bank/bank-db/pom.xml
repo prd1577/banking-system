@@ -1,0 +1,42 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.cognitivescale.bank</groupId>
+	<artifactId>bank-db</artifactId>
+	<version>1.0.0</version>
+	<packaging>jar</packaging>
+
+	<name>bank-db</name>
+	<url>http://maven.apache.org</url>
+
+	<properties>
+		<!-- Java Version -->
+		<java.version>1.8</java.version>
+		<!-- Spring Data MongoDb -->
+		<spring-data-mongo.version>1.9.4.RELEASE</spring-data-mongo.version>
+	</properties>
+
+	<dependencies>
+		<!-- Spring Data MongoDb -->
+		<dependency>
+			<groupId>org.springframework.data</groupId>
+			<artifactId>spring-data-mongodb</artifactId>
+			<version>${spring-data-mongo.version}</version>
+		</dependency>
+	</dependencies>
+	<build>
+		<sourceDirectory>src/main/java</sourceDirectory>
+		<plugins>
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.3</version>
+				<configuration>
+					<source>${java.version}</source>
+					<target>${java.version}</target>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+	<description>Project contains configuration, beans and repository classes for bank repository service.</description>
+</project>
